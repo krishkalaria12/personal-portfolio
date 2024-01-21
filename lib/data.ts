@@ -2,8 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
+import shopeasy from "@/public/shopeasy.png"
+import blog from "@/public/blog.png"
+import nextAuth from "@/public/next-auth.png"
 import wordanalyticsImg from "@/public/wordanalytics.png";
 
 export const links = [
@@ -27,60 +28,51 @@ export const links = [
     name: "Experience",
     hash: "#experience",
   },
-  {
-    name: "Contact",
-    hash: "#contact",
-  },
 ] as const;
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Student",
+    location: "Coimbatore,India",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "Successfully navigating through the dynamic academic landscape at Kikani Vidhya Mandir, I triumphantly completed both 11th and 12th grades, embodying a commitment to excellence and a passion for lifelong learning.",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2021 - 2023",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "College Student",
+    location: "VIT Chennai",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
-  },
-  {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "I'm now a Student Pursuing a Bachelor's degree in Computer Science Engineering at Vellore Institute of Technology, Chennai, frontend developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma , Redux, Next Auth. I'm open to freelancing opportunities.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2024 - present",
   },
 ] as const;
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "ShopEasy-Ecommerce",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "I worked as a frontend developer on project for 1 month. Users can give go out on shopping on it",
+    tags: ["React", "Redux", "Tailwind", "Appwrite"],
+    imageUrl: shopeasy,
+    linkProject: "https://shopeasyy.netlify.app/"
   },
   {
-    title: "rmtDev",
+    title: "React Blog with Authentication",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Blog Website where Users Can Create their Own Blogs and View them.It has features like Authentication, CRUD Operations",
+    tags: ["React", "JavaScript", "Tailwind", "Redux", "Appwrite"],
+    imageUrl: blog,
+    linkProject: "https://appwritereactblog.vercel.app/"
   },
   {
-    title: "Word Analytics",
+    title: "Next Auth Advanced Authentication System",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "A public web app for Advanced Authentication System built on Next js which includes features like OAuth Provider, Forgot password and More",
+    tags: ["React", "Next.js", "Prisma", "Tailwind", "Next Auth"],
+    imageUrl: nextAuth,
+    linkProject: "https://next-auth-krish.vercel.app/"
   },
 ] as const;
 
@@ -91,17 +83,7 @@ export const skillsData = [
   "TypeScript",
   "React",
   "Next.js",
-  "Node.js",
   "Git",
-  "Tailwind",
-  "Prisma",
-  "MongoDB",
   "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
+  "Tailwind",
 ] as const;

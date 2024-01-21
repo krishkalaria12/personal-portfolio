@@ -1,30 +1,43 @@
-[![Watch tutorial here](https://img.youtube.com/vi/sUKptmUVIBM/0.jpg)](https://youtu.be/sUKptmUVIBM)
+# My Awesome Portfolio 👩‍💻
 
-# [Watch video here](https://youtu.be/sUKptmUVIBM)
+Welcome to my personal portfolio! 🚀 Explore my projects, skills, and achievements to get to know me better.
 
-## What you will learn
+## 🌟 About Me
 
-- Latest Next.js 13 features
-- Next.js App Router
-- Next.js Server Actions
-- Client & Server Components
-- TypeScript (Beginner & Intermediate)
-- Tailwind CSS
-- Context API
-- Advanced Animations with Framer Motion
-- React.Email & Resend
-- Custom React hooks
-- Fresh, modern UI design
-- Light & Dark mode
-- Responsive website
+I am a passionate and creative software developer with a love for solving problems and building cool stuff. My journey in the world of technology has been an exciting adventure, and this portfolio is a glimpse into my skills and experiences.
 
-## Important
+## 🚀 Projects
 
-If you want to be a professional developer, you have to know the fundamentals like JavaScript and CSS really well. I highly recommend you go through my [Professional JavaScript](https://bytegrad.com/courses/professional-javascript) and [Professional CSS](https://bytegrad.com/courses/professional-css) courses.
+### Project 1: [ShopEasy Ecommerce](https://shopeasyy.netlify.app/)
+I worked as a frontend developer on project for 1 month. Users can give go out on shopping on it. Teck Stack: "React", "Redux", "Tailwind", "Appwrite"
 
-I'm close to releasing a complete React & Next.js course. Get on the email list to receive early-bird pricing: [link](https://email.bytegrad.com/).
+### Project 2: [React Mega Blog](https://appwritereactblog.vercel.app/)
+Blog Website where Users Can Create their Own Blogs and View them.It has features like Authentication, CRUD Operations. Teck Stack: "React", "JavaScript", "Tailwind", "Redux", "Appwrite"
 
-## Setup
+### Project 3: [Next Auth Advanced System](https://next-auth-krish.vercel.app/)
+A public web app for Advanced Authentication System built on Next js which includes features like OAuth Provider, Forgot password and More. Tech Stack: "React", "Next.js", "Prisma", "Tailwind", "Next Auth"
 
-1. Add RESEND_API_KEY environment variable in .env.local
-2. In the send-email.ts action file, change the "to" email to your own email
+
+## 🔧 Skills
+
+- **Programming Languages:** Python, JavaScript, TypeScript
+- **Web Development:** HTML, CSS, React, Next js
+- **Database:** Appwrite, Prisma
+- **Tools & Technologies:** Git, VSCode
+
+
+## 🌐 Connect with Me
+
+- LinkedIn: [Your LinkedIn Profile](your-linkedin-profile-url)
+- Twitter: [@YourTwitterHandle](https://twitter.com/your-twitter-handle)
+- Portfolio Website: [Your Portfolio Website](link-to-your-portfolio)
+
+## 📬 Contact
+
+Feel free to reach out! I'm open to collaboration and always eager to learn new things.
+
+- Email: codewithkrish12@gmail.com
+
+---
+
+Thank you for visiting my GitHub! ⭐️ Let's build something amazing together! 🚀
