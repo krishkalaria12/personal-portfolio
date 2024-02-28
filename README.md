@@ -28,9 +28,9 @@ A public web app for Advanced Authentication System built on Next js which inclu
 
 ## 🌐 Connect with Me
 
-- LinkedIn: [Your LinkedIn Profile](your-linkedin-profile-url)
-- Twitter: [@YourTwitterHandle](https://twitter.com/your-twitter-handle)
-- Portfolio Website: [Your Portfolio Website](link-to-your-portfolio)
+- LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/krish-kalaria/)
+- Twitter: [TwitterHandle](https://twitter.com/KrishKalaria)
+- Portfolio Website: [Portfolio Website](https://krishkalaria.vercel.app/)
 
 ## 📬 Contact
 
