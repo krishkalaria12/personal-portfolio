@@ -49,7 +49,8 @@ export default function Page() {
           </Markdown>
         </BlurFade>
       </section>
-      <section id="work">
+      { DATA.work.length > 0 &&
+        <section id="work">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 5}>
             <h2 className="text-xl font-bold">Work Experience</h2>
@@ -74,6 +75,7 @@ export default function Page() {
           ))}
         </div>
       </section>
+      }
       <section id="education">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 7}>
@@ -212,6 +214,13 @@ export default function Page() {
                   className="text-blue-500 hover:underline"
                 >
                   with a direct question on twitter
+                </Link>{" "}
+                or{" "}
+                <Link
+                  href={DATA.contact.social.email.url}
+                  className="text-blue-500 hover:underline"
+                >
+                  you can mail me
                 </Link>{" "}
                 and I&apos;ll respond whenever I can. I will ignore all
                 soliciting.
