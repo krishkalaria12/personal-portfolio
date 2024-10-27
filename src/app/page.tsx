@@ -49,13 +49,13 @@ export default function Page() {
           </Markdown>
         </BlurFade>
       </section>
-      { DATA.work.length > 0 &&
+      {/* { DATA.work.length > 0 &&
         <section id="work">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 5}>
             <h2 className="text-xl font-bold">Work Experience</h2>
           </BlurFade>
-          {DATA.work.map((work, id) => (
+          {DATA?.work.map((work, id) => (
             <BlurFade
               key={work.company}
               delay={BLUR_FADE_DELAY * 6 + id * 0.05}
@@ -75,7 +75,7 @@ export default function Page() {
           ))}
         </div>
       </section>
-      }
+      } */}
       <section id="education">
         <div className="flex min-h-0 flex-col gap-y-3">
           <BlurFade delay={BLUR_FADE_DELAY * 7}>
