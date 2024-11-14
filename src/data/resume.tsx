@@ -18,9 +18,13 @@ export const DATA = {
     "Typescript",
     "Mongodb",
     "Postgress",
+    "Prisma",
+    "Drizzle",
     "Node.js",
+    "Express",
     "Hono",
     "Python",
+    "Git",
     "Docker",
     "Java",
     "C++",
@@ -262,7 +266,7 @@ export const DATA = {
     },
     {
       title: "Survive the night",
-      href: "https://survive-the-night-sim-production.up.railway.app/",
+      href: "https://survivethenightgame.com/",
       dates: "October 2024 - Present",
       active: true,
       description:
