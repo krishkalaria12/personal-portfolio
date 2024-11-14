@@ -193,7 +193,7 @@ export const DATA = {
         },
         {
           type: "Source",
-          href: "https://github.com/krishkalaria12/Task-Forge",
+          href: "https://github.com/krishkalaria12/task-forge",
           icon: <Icons.github className="size-3" />,
         },
       ],
