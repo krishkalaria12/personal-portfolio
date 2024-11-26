@@ -26,8 +26,8 @@ export const DATA = {
     "Python",
     "Git",
     "Docker",
-    "Java",
     "C++",
+    "Java",
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
@@ -284,7 +284,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://survive-the-night-sim-production.up.railway.app/",
+          href: "https://survivethenightgame.com/",
           icon: <Icons.globe className="size-3" />,
         },
         {
