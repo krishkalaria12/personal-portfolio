@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon } from "lucide-react";
+import { HomeIcon, FileText } from "lucide-react";
 
 export const DATA = {
   name: "Krish Kalaria",
@@ -30,7 +30,8 @@ export const DATA = {
     "Java",
   ],
   navbar: [
-    { href: "/", icon: HomeIcon, label: "Home" },
+    { href: "/", icon: HomeIcon, label: "Home", isExternal: false },
+    { href: "https://drive.google.com/file/d/1AqVsikyhd9WHr-leqXiDS2v93iT_nnyZ/view?usp=sharing", icon: FileText, label: "Resume", isExternal: true },
   ],
   contact: {
     email: "codewithkrish@gmail.com",
@@ -68,6 +69,30 @@ export const DATA = {
   },
 
   work: [
+    {
+      company: "Newton School Coding Club VIT Chennai",
+      href: "https://nscc-vitc.vercel.app",
+      badges: [],
+      location: "Chennai, India",
+      title: "President",
+      logoUrl: "https://jq8q9rbcfr.ufs.sh/f/zPjnl6p73EdYZtKKM5V3rtGsfo6bXmMLWSDqTaNu2VZ490vh",
+      start: "April 2025",
+      end: "Present",
+      description:
+        "Leading the club's overall strategy and growth initiatives, managing a team of technical leads, and fostering collaboration with industry partners to enhance learning opportunities for 100+ student members.",
+    },
+    {
+      company: "Newton School Coding Club VIT Chennai",
+      href: "https://nscc-vitc.vercel.app",
+      badges: [],
+      location: "Chennai, India",
+      title: "Web Development Lead",
+      logoUrl: "https://jq8q9rbcfr.ufs.sh/f/zPjnl6p73EdYZtKKM5V3rtGsfo6bXmMLWSDqTaNu2VZ490vh",
+      start: "July 2024",
+      end: "March 2025",
+      description:
+        "Mentored 20+ students in web development technologies, organized hands-on workshops, and led the development of the club's official website. Implemented project-based learning approaches that resulted in successful student projects and improved practical skills.",
+    },
     {
       company: "The Dusky Muse",
       href: "https://www.theduskymuse.com/",
@@ -159,7 +184,7 @@ export const DATA = {
       end: "2022",
     },
     {
-      school: "Vellore ",
+      school: "Vellore Institute of Technology, Chennai",
       href: "https://chennai.vit.ac.in/",
       degree: "Bachelor of Technology in Computer Science and Engineering (Btech CSE)",
       logoUrl: "https://utfs.io/f/zPjnl6p73EdY9UPkgHqSAqyPnX0xuGeJgHC6t1pRjmfLc42W",
@@ -168,6 +193,35 @@ export const DATA = {
     },
   ],
   projects: [
+    {
+      title: "The Dusky Muse",
+      href: "https://www.theduskymuse.com/",
+      dates: "December 2024 - Present",
+      active: true,
+      description:
+        "A full-stack ecommerce store with admin dashboard, store page with invoice generation, shiprocket integration, and a lot more which an ecommerce usually has.",
+      technologies: [
+        "Next.js",
+        "Typescript",
+        "Hono",
+        "Postgress",
+        "Drizzle",
+        "Upstash",
+        "TailwindCSS",
+        "Shadcn UI",
+        "Razorpay",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://www.theduskymuse.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "https://jq8q9rbcfr.ufs.sh/f/zPjnl6p73EdY59oAAr4fqyzPSMjLdnuXpxUhV8ZOls3RYwJb",
+      video:
+        "",
+    },
     {
       title: "Task Forge",
       href: "https://task-forgee.vercel.app",
@@ -234,37 +288,6 @@ export const DATA = {
       video: "",
     },
     {
-      title: "StackOverflow Clone - Riverflow",
-      href: "https://riverfloww.vercel.app/",
-      dates: "April 2023 - May 2023",
-      active: true,
-      description:
-        "A full-stack Stack Over Flow Clone Application with Nextjs's latest features and lightning-fast edge Appwrite as a service with its node sdk",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "Appwrite",
-        "TailwindCSS",
-        "Shadcn UI",
-        "Aceternity UI"
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://riverfloww.vercel.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-        {
-          type: "Source",
-          href: "https://github.com/krishkalaria12/stackoverflow-clone",
-          icon: <Icons.github className="size-3" />,
-        },
-      ],
-      image: "https://utfs.io/f/zPjnl6p73EdYdjdqjYKPLlEjFy3wGVM2mR0xTU6QcODnaJgu",
-      video:
-        "",
-    },
-    {
       title: "Survive the night",
       href: "https://survivethenightgame.com/",
       dates: "October 2024 - Present",
@@ -298,6 +321,79 @@ export const DATA = {
     },
   ],
   hackathons: [
+    {
+      title: "Bingo",
+      dates: "April 4th - 6th, 2025",
+      location: "MG Auditorium, Chennai",
+      description: "Bingo is an all-in-one social media management tool designed to simplify content creation, scheduling, and engagement across multiple platforms. Features include AI-driven content generation, cross-platform posting, smart scheduling, and automated engagement.",
+      image: "https://jq8q9rbcfr.ufs.sh/f/zPjnl6p73EdYqvs37MGdsQGjxZVnWcJN9Dub0pATqE52L7kP",
+      win: "Top 5",
+      mlh: "https://devhouse.in/",
+      links: [
+        {
+          title: "Website",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://bingo-social.vercel.app",
+        },
+        {
+          title: "Source",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/krishkalaria12/Bingo",
+        },
+        {
+          title: "Demo",
+          icon: <Icons.youtube className="h-4 w-4" />,
+          href: "https://www.youtube.com/watch?v=C6vXH90KC70",
+        },
+      ],
+    },
+    {
+      title: "FetchHive",
+      dates: "March 5th - 7th, 2025",
+      location: "Mg Auditorium, Chennai",
+      description: "API Generation Platform that empowers developers to generate and deploy APIs by describing requirements in plain English. Users can access real-time data such as stock prices, weather updates, or sports scores within seconds.",
+      image: "https://jq8q9rbcfr.ufs.sh/f/zPjnl6p73EdYj4M8AUHD3mgJTB1WEFVezNc8yYsoktx94RnP",
+      win: "Top 5",
+      mlh: "",
+      links: [
+        {
+          title: "Website",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://fetch-hive.vercel.app",
+        },
+        {
+          title: "Source",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/krishkalaria12/fetchHive",
+        },
+        {
+          title: "Demo",
+          icon: <Icons.youtube className="h-4 w-4" />,
+          href: "https://www.youtube.com/watch?v=YQqslHAJubA",
+        },
+      ],
+    },
+    {
+      title: "Zeno Museum Companion",
+      dates: "August - September 2024",
+      location: "Smart India Hackathon",
+      description: "An intelligent museum companion that enhances museum experience through seamless ticket booking, queue management, and AI-powered chatbots. Features multilingual support and integrated payments for both visitors and museum owners.",
+      image: "https://jq8q9rbcfr.ufs.sh/f/zPjnl6p73EdY61Xe2ABuVevpNtZMnfPwS84oWLgAryYIj1FT",
+      win: "",
+      mlh: "",
+      links: [
+        {
+          title: "Website",
+          icon: <Icons.globe className="h-4 w-4" />,
+          href: "https://zeno-museum-companion.vercel.app",
+        },
+        {
+          title: "Source",
+          icon: <Icons.github className="h-4 w-4" />,
+          href: "https://github.com/krishkalaria12/zeno-muesum-companion",
+        },
+      ],
+    },
     {
       title: "Chain Connect",
       dates: "January 20th - 21st, 2024",
