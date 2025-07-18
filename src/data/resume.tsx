@@ -23,6 +23,13 @@ export const DATA = {
     "Node.js",
     "Express",
     "Hono",
+    "Expo",
+    "React Native",
+    "Zustand",
+    "React Query",
+    "PG vector",
+    "Redis",
+    "RAG"
     "Python",
     "Git",
     "Docker",
@@ -69,6 +76,18 @@ export const DATA = {
   },
 
   work: [
+    {
+      company: "Google Developer Group, VIT Chennai",
+      href: "https://gdg.community.dev/gdg-on-campus-vellore-institute-of-technology-chennai-india/",
+      badges: [],
+      location: "Chennai, India",
+      title: "Web Development Lead",
+      logoUrl: "https://jq8q9rbcfr.ufs.sh/f/zPjnl6p73EdYnuNoFeZMWIrKYc6mkavZ1Rqhgj8iBduQVlsG",
+      start: "June 2025",
+      end: "Present",
+      description:
+        "Leading web projects, mentoring developers, and ensuring the successful execution of web-related initiatives for the Google Developer Group.",
+    },
     {
       company: "Newton School Coding Club VIT Chennai",
       href: "https://nscc-vitc.vercel.app",
