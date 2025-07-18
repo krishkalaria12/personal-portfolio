@@ -29,7 +29,7 @@ export const DATA = {
     "React Query",
     "PG vector",
     "Redis",
-    "RAG"
+    "RAG",
     "Python",
     "Git",
     "Docker",
