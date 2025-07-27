@@ -38,7 +38,7 @@ export const DATA = {
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home", isExternal: false },
-    { href: "https://drive.google.com/file/d/1AqVsikyhd9WHr-leqXiDS2v93iT_nnyZ/view?usp=sharing", icon: FileText, label: "Resume", isExternal: true },
+    { href: "https://drive.google.com/file/d/1C8xnVoMI5IAMQ6T0SlhWNwuplZfwZPS6/view?usp=sharing", icon: FileText, label: "Resume", isExternal: true },
   ],
   contact: {
     email: "codewithkrish@gmail.com",
