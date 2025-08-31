@@ -258,7 +258,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "https://jq8q9rbcfr.ufs.sh/f/zPjnl6p73EdY59oAAr4fqyzPSMjLdnuXpxUhV8ZOls3RYwJb",
+      image: "https://utfs.io/f/zPjnl6p73EdYhMCJ8hmnkO6HRLbGxh72sXvcYUWPIN3CmgeQ",
       video:
         "",
     },
